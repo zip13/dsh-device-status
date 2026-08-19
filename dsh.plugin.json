@@ -1,0 +1,16 @@
+{
+  "id": "dsh-external/dsh-device-status",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "description": "better-sidebar Device Status tab: read-only host machine CPU / memory / disk / network / uptime view.",
+  "engines": {
+    "dsh": ">=0.0.1"
+  },
+  "contributes": {
+    "tools": [],
+    "skills": []
+  },
+  "client": {
+    "main": "./lib/client-registry.js"
+  }
+}
